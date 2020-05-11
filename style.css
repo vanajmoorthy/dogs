@@ -20,14 +20,45 @@ form {
 	margin: 20px 0 20px 0;
 }
 
+.select {
+	background-color: #4d4a66;
+	color: white;
+	font-family: inherit;
+	font-size: 1.3em;
+	padding: 7px 11px 5px 11px;
+	text-align: center;
+	border-radius: 8px 0 0 8px;
+	border: none;
+	margin-right: 0;
+	width: 240px;
+}
+
+.select:focus {
+	border: none;
+	outline: none;
+}
+
+.select option {
+	padding: 10px;
+}
+
+.select-items {
+	background-color: black;
+}
+
+#button {
+	margin: 20px 0 20px 0;
+}
+
 input {
+	margin-left: 0px;
 	font-family: canada-type-gibson, sans-serif;
 	font-size: 1.3em;
 	padding: 7px 11px 5px 11px;
 	border: none;
 	color: white;
 	background-color: #82bbcf;
-	border-radius: 8px;
+	border-radius: 0 8px 8px 0;
 }
 
 input:hover {
@@ -35,6 +66,73 @@ input:hover {
 	transition: background-color 0.3s ease;
 }
 
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+}
+
 #dog-image {
-	max-width: 90vw;
+	max-width: 85vw;
+	max-height: 60vh;
+	/* text-align: center; */
+	margin: auto;
+}
+
+a {
+	color: white;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #689db1;
+}
+
+.footer {
+	font-size: 1.2em;
+	border-top: 2px solid #689db1;
+	color: white;
+	width: 390px;
+	margin: auto;
+	text-align: center;
+	padding: 0px 0 7px 0;
+}
+
+@media screen and (max-width: 420px) {
+	.footer {
+		width: 370px;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	h1 {
+		font-size: 1.8em;
+	}
+	.select {
+		width: 200px;
+	}
+
+	.footer {
+		width: 340px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	.select {
+		width: 180px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.select {
+		width: 160px;
+	}
+
+	.footer {
+		width: 320px;
+	}
 }
