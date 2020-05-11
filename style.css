@@ -1,3 +1,40 @@
+body {
+	background-color: #29263e;
+}
+
+main {
+	font-family: canada-type-gibson, sans-serif;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 600;
+	color: #82bbcf;
+	text-decoration: underline;
+}
+
+form {
+	margin: 20px 0 20px 0;
+}
+
+input {
+	font-family: canada-type-gibson, sans-serif;
+	font-size: 1.3em;
+	padding: 7px 11px 5px 11px;
+	border: none;
+	color: white;
+	background-color: #82bbcf;
+	border-radius: 8px;
+}
+
+input:hover {
+	background-color: #689db1;
+	transition: background-color 0.3s ease;
+}
+
 #dog-image {
 	max-width: 90vw;
 }
