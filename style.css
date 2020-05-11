@@ -54,6 +54,7 @@ form {
 }
 
 input {
+	cursor: pointer;
 	-webkit-appearance: none;
 	margin-left: 0px;
 	font-family: canada-type-gibson, sans-serif;
