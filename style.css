@@ -79,7 +79,7 @@ input:focus {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 60vh;
+	height: calc(100vh - 20rem);
 }
 
 #dog-image {
